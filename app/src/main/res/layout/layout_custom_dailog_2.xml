@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:elevation="15dp"
+    app:cardCornerRadius="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fitness Tracker"
+            android:textColor="#33C5C5"
+            android:fontFamily="@font/raleway_bold"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/message"
+            android:fontFamily="@font/raleway"
+            android:text="message"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:textSize="14sp"
+                android:backgroundTint="#F91111"
+                android:fontFamily="@font/raleway_bold"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="SIM"/>
+
+            <Button
+                android:id="@+id/btn_dont"
+                android:backgroundTint="#33C5C5"
+                android:textSize="14sp"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/raleway_bold"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Não"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data" >
+        <item>Índice de Massa Corporal (IMC)</item>
+        <item>Taxa Metabólica Basal (TMB)</item>
+        <item>Frequência Cardíaca Máxima (FCM)</item>
+    </string-array>
+</resources>

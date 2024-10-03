@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/imageView"
+                style="@style/ImageViewForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_fitness_track" />
+
+            <View
+                android:id="@+id/menu"
+                style="@style/ViewForm"
+                android:background="@drawable/background_menu" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="200dp"
+                android:src="@drawable/vector_data_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="60dp"
+                android:fontFamily="@font/raleway_medium"
+                android:text="Selecione quais dados você deseja visualizar."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/AutoTextViewForm">
+                    
+                    <AutoCompleteTextView
+                        android:fontFamily="@font/raleway"
+                        android:background="@drawable/background_entry"
+                        android:id="@+id/auto_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:popupBackground="@drawable/rounded_dropdown"
+                        android:inputType="none"/>
+
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/btn_select"
+                    android:layout_marginTop="60dp"
+                    android:text="@string/select"
+                    android:layout_width="wrap_content"
+                    android:textColor="#50BEED"
+                    android:backgroundTint="@color/white"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cor de fundo quando o item está selecionado -->
+    <item android:state_pressed="true" android:drawable="@color/colorItemSelected" />
+    <!-- Cor de fundo quando o item está em foco (navegação por teclado) -->
+    <item android:state_focused="true" android:drawable="@color/colorItemSelected" />
+    <!-- Cor de fundo para o estado normal (não selecionado) -->
+    <item android:drawable="@color/colorItemNormal" />
+</selector>

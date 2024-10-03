@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="imc_desc">O Índice de Massa Corporal (IMC) é uma medida que avalia a proporção entre o peso e a altura de uma pessoa, e é usado para determinar se ela está dentro de uma faixa de peso saudável.</string>
+    <string name="weight">Peso (Kg)</string>
+    <string name="height">Altura (cm)</string>
+    <string name="calc">CALCULAR</string>
+    <string name="tmb">TMB</string>
+    <string name="fcm">FCM</string>
+    <string name="water">Água</string>
+    <string name="imc">IMC</string>
+    <string name="steps">Passos</string>
+
+
+    <string name="imc_severely_low_weight"> Severamente abaixo do peso</string>
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="normal">Normal.</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="imc_so_high_weight">Moderadamente obeso</string>
+    <string name="imc_severely_high_weight">Severamente obeso</string>
+    <string name="imc_extreme_weight">Extremamente obeso.</string>
+    <string name="txt_acesso_rapido">ACESSO RÁPIDO</string>
+    <string name="tmb_desc">A taxa metabólica basal (TMB) é a quantidade de energia que o corpo precisa para manter as funções vitais em repouso, como a respiração, a circulação sanguínea e a função cerebral.</string>
+    <string name="name">Nome</string>
+    <string name="age">Idade</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="boas_vindas">Seja bem-vindo ao Fitness Tracker! \nPreencha os dados abaixo para conhecermos o seu perfil!</string>
+    <string name="tips">Dicas\n</string>
+    <string name="menu">Utilize o menu rápido para acessar de forma prática e imediata suas principais funcionalidades, facilitando o acompanhamento da sua saúde e ajudando você a manter o foco nos seus objetivos de bem-estar!</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="list_response">resultado: %1$.2f, data: %2$s</string>
+    <string name="data">Dados</string>
+    <string name="cfm">CFM</string>
+    <string name="fcm_desc">A frequência cardíaca máxima (FCM) é o valor mais elevado da freqüência cardíaca que um indivíduo pode atingir em um esforço máximo até o ponto de exaustão, sendo uma importante variável fisiológica para quantificar o esforço máximo durante um teste ergométrico.</string>
+    <string name="select">SELECIONAR</string>
+    <string name="delete">EXCLUIR</string>
+
+
+</resources>
